@@ -56,12 +56,8 @@ public class class5 {
 
         thread1.start();
 
-        try{
-        thread1.join();}
-        catch (Exception e){
-            e.printStackTrace();
-        }
-        thread2.start();
+//
+        thread2.run();
 
     }
 }
