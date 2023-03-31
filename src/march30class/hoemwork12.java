@@ -2,16 +2,25 @@ package march30class;
 
 import java.util.Scanner;
 
-public class homework8 {
+public class hoemwork12 {
+
+
     public static void main(String[] args) {
+
 
 
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        System.out.println((double)a);
 
 
+        String g = a==100?"100":
+                a>100?"100보다큼":"100보다작음";
+
+        System.out.println(g);
 
 
     }
+
+
+
 }
