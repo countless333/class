@@ -22,6 +22,7 @@ public class homework19 {
                    kkk.add(i);
                }
         }
+        System.out.println(kkk);
         ArrayList<Integer>kkk2 = new ArrayList<>();
         for(int i=1;i<b+1;i++){
 
@@ -29,7 +30,9 @@ public class homework19 {
                 kkk2.add(i);
             }
         }
-ArrayList<Integer> gong = new ArrayList<>();
+        System.out.println(kkk2);
+
+        ArrayList<Integer> gong = new ArrayList<>();
         for(int i=0;i<kkk.size();i++){
 
             for(int j=0;j<kkk2.size();j++){

@@ -8,9 +8,7 @@ public class homework23 {
 
     public static void main(String[] args) {
 
-        int[] arr = IntStream.range(1,101)
-                .filter(a->a%2==0)
-                .toArray();
+        int[] arr = IntStream.range(1,101).filter(a->a%2==0).toArray();
 
         int arrz = IntStream.range(1,101)
                 .filter(a->a%2==0)
@@ -24,6 +22,7 @@ public class homework23 {
         System.out.println(summ);
         System.out.println(arrz);
     }
+
 
 
 }

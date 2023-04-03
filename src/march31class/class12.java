@@ -21,6 +21,19 @@ String a = "23236246-46-346-6";
 
 //String k = Arrays.stream(a.split("-")).reduce((u,i)->u.length()>i.length()?u:i).get();
 
+
+
+        String[] k = a.split("-");
+
+        int maxlength = Arrays.stream(k).mapToInt(String::length).reduce(Math::max).getAsInt();
+int maxindex = Arrays.asList(k).indexOf(Arrays.stream(k).filter(b->b.length()==maxlength).findFirst().get());
+        System.out.println(k[maxindex]);
+
+
+
+
+
+
     }
 
 
